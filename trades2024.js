@@ -803,7 +803,7 @@ var huffOffer2 = {
 }
 
 var TevinJenkins = {
-    name: "Tevin Jenkins",
+    name: "Teven Jenkins",
     pos: 'IOL',
     age: '25',
     height: '6-1',
@@ -815,7 +815,7 @@ var TevinJenkins = {
 
 var huffOffer3 = {
   team: chi,
-  receiveText: ["Tevin Jenkins"],
+  receiveText: ["Teven Jenkins"],
   giveText: ["Bryce Huff", "2024 Round 4"],
   receiveIndex: [],
   giveIndex: [returnPickIndex(4, false, nyj)],
@@ -875,7 +875,7 @@ var HunterRenfrow = {
 };
 
 var jfmOffer2 = {
-  team: was,
+  team: lv,
   receiveText: ["Hunter Renfrow", "2024 Round 3"],
   giveText: ["John Franklin-Myers"],
   receiveIndex: [returnPickIndex(3, false, was)],

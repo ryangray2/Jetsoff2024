@@ -123,8 +123,8 @@ name: 'Adoree Jackson',
 pos: 'CB',
 age: '28.3',
 type: 'UFA',
-cYears: 0,
-cTotal: 0,
+cYears: 4,
+cTotal: 45.4,
 interest: 40,
 img: ''
 };
@@ -283,8 +283,8 @@ name: 'Kendall Fuller',
 pos: 'CB',
 age: '28.9',
 type: 'UFA',
-cYears: 0,
-cTotal: 0,
+cYears: 3,
+cTotal: 42.4,
 interest: 40,
 img: ''
 };
@@ -303,8 +303,8 @@ name: 'Stephon Gilmore',
 pos: 'CB',
 age: '33.3',
 type: 'UFA',
-cYears: 0,
-cTotal: 0,
+cYears: 1,
+cTotal: 11.1,
 interest: 40,
 img: ''
 };
@@ -353,8 +353,8 @@ name: 'Michael Davis',
 pos: 'CB',
 age: '29.0',
 type: 'UFA',
-cYears: 0,
-cTotal: 0,
+cYears: 2,
+cTotal: 4.7,
 interest: 40,
 img: ''
 };
@@ -363,8 +363,8 @@ name: 'Jeff Okudah',
 pos: 'CB',
 age: '24.9',
 type: 'UFA',
-cYears: 0,
-cTotal: 0,
+cYears: 1,
+cTotal: 5,
 interest: 40,
 img: ''
 };
@@ -410,11 +410,11 @@ img: ''
 };
 var DevinWhite = {
 name: 'Devin White',
-pos: 'ILB',
+pos: 'LB',
 age: '25.9',
 type: 'UFA',
-cYears: 0,
-cTotal: 0,
+cYears: 2,
+cTotal: 21.5,
 interest: 40,
 img: ''
 };
@@ -610,17 +610,17 @@ img: ''
 };
 var JoseyJewell = {
 name: 'Josey Jewell',
-pos: 'ILB',
+pos: 'LB',
 age: '29.1',
 type: 'UFA',
-cYears: 0,
-cTotal: 0,
+cYears: 2,
+cTotal: 15,
 interest: 40,
 img: ''
 };
 var BobbyWagner = {
 name: 'Bobby Wagner',
-pos: 'ILB',
+pos: 'LB',
 age: '33.5',
 type: 'UFA',
 cYears: 0,
@@ -683,8 +683,8 @@ name: 'C.J. Henderson',
 pos: 'CB',
 age: '25.2',
 type: 'UFA',
-cYears: 0,
-cTotal: 0,
+cYears: 2,
+cTotal: 16.9,
 interest: 40,
 img: ''
 };
@@ -740,7 +740,7 @@ img: ''
 };
 var JordanHicks = {
 name: 'Jordan Hicks',
-pos: 'ILB',
+pos: 'LB',
 age: '32.2',
 type: 'UFA',
 cYears: 0,
@@ -853,8 +853,8 @@ name: 'Steven Nelson',
 pos: 'CB',
 age: '31.0',
 type: 'UFA',
-cYears: 0,
-cTotal: 0,
+cYears: 3,
+cTotal: 30.7,
 interest: 40,
 img: ''
 };
@@ -890,7 +890,7 @@ img: ''
 };
 var LavonteDavid = {
 name: 'Lavonte David',
-pos: 'ILB',
+pos: 'LB',
 age: '34.0',
 type: 'UFA',
 cYears: 0,
@@ -1181,7 +1181,7 @@ img: ''
 };
  var DevinBush = {
 name: 'Devin Bush',
-pos: 'ILB',
+pos: 'LB',
 age: '25.5',
 type: 'UFA',
 cYears: 0,
@@ -1341,21 +1341,21 @@ img: ''
 };
 var PatrickQueen = {
 name: 'Patrick Queen',
-pos: 'ILB',
+pos: 'LB',
 age: '24.4',
 type: 'UFA',
-cYears: 0,
-cTotal: 0,
+cYears: 5,
+cTotal: 92.6,
 interest: 40,
 img: ''
 };
 var JamesHurst = {
 name: 'James Hurst',
-pos: 'OT' ,
+pos: 'IOL' ,
 age: '32.1',
 type: 'UFA',
-cYears: 0,
-cTotal: 0,
+cYears: 2,
+cTotal: 6,
 interest: 40,
 img: ''
 };
@@ -1574,8 +1574,8 @@ name: 'Graham Glasgow',
 pos: 'IOL' ,
 age: '31.4',
 type: 'UFA',
-cYears: 0,
-cTotal: 0,
+cYears: 1,
+cTotal: 5,
 interest: 40,
 img: ''
 };
@@ -1714,8 +1714,8 @@ name: 'K\'Waun Williams',
 pos: 'CB',
 age: '32.5',
 type: 'UFA',
-cYears: 0,
-cTotal: 0,
+cYears: 1,
+cTotal: 3,
 interest: 40,
 img: ''
 };
@@ -1741,7 +1741,7 @@ img: ''
 };
 var DenzelPerryman = {
 name: 'Denzel Perryman',
-pos: 'ILB',
+pos: 'LB',
 age: '31.1',
 type: 'UFA',
 cYears: 0,
@@ -1821,7 +1821,7 @@ img: ''
 };
 var OrenBurks = {
 name: 'Oren Burks',
-pos: 'ILB',
+pos: 'LB',
 age: '28.8',
 type: 'UFA',
 cYears: 0,
@@ -1881,7 +1881,7 @@ img: ''
 };
 var TylerMatakevich = {
 name: 'Tyler Matakevich',
-pos: 'ILB',
+pos: 'LB',
 age: '31.1',
 type: 'UFA',
 cYears: 0,
@@ -1914,8 +1914,8 @@ name: 'Tyler Shatley',
 pos: 'IOL' ,
 age: '32.7',
 type: 'UFA',
-cYears: 0,
-cTotal: 0,
+cYears: 1,
+cTotal: 3,
 interest: 40,
 img: ''
 };
@@ -1951,7 +1951,7 @@ img: ''
 };
 var IsaiahWynn = {
 name: 'Isaiah Wynn',
-pos: 'OT' ,
+pos: 'IOL' ,
 age: '27.1',
 type: 'UFA',
 cYears: 1,
@@ -1964,8 +1964,8 @@ name: 'Jon Feliciano',
 pos: 'IOL' ,
 age: '31.9',
 type: 'UFA',
-cYears: 0,
-cTotal: 0,
+cYears: 1,
+cTotal: 3,
 interest: 40,
 img: ''
 };
@@ -2151,11 +2151,11 @@ img: ''
 };
 var TyrelDodson = {
 name: 'Tyrel Dodson',
-pos: 'ILB',
+pos: 'LB',
 age: '25.6',
 type: 'UFA',
-cYears: 0,
-cTotal: 0,
+cYears: 1,
+cTotal: 4.8,
 interest: 40,
 img: ''
 };
@@ -2231,7 +2231,7 @@ img: ''
 };
 var EzekielTurner = {
 name: 'Ezekiel Turner',
-pos: 'ILB',
+pos: 'LB',
 age: '27.6',
 type: 'UFA',
 cYears: 0,
@@ -2341,7 +2341,7 @@ img: ''
 };
 var ZachCunningham = {
 name: 'Zach Cunningham',
-pos: 'ILB',
+pos: 'LB',
 age: '29.1',
 type: 'UFA',
 cYears: 0,
@@ -2461,7 +2461,7 @@ img: ''
 };
 var NevilleHewitt = {
 name: 'Neville Hewitt',
-pos: 'ILB',
+pos: 'LB',
 age: '30.8',
 type: 'UFA',
 cYears: 0,
@@ -2621,7 +2621,7 @@ img: ''
 };
 var ShaquilleLeonard = {
 name: 'Shaquille Leonard',
-pos: 'ILB',
+pos: 'LB',
 age: '28.4',
 type: 'UFA',
 cYears: 0,
@@ -2940,12 +2940,12 @@ interest: 40,
 img: ''
 };
  var JrWillieGayJr = {
-name: 'Jr. Willie Gay Jr.',
-pos: 'ILB',
+name: 'Willie Gay Jr.',
+pos: 'LB',
 age: '25.9',
 type: 'UFA',
-cYears: 0,
-cTotal: 0,
+cYears: 4,
+cTotal: 28.2,
 interest: 40,
 img: ''
 };
@@ -3191,7 +3191,7 @@ img: ''
 };
 var KwonAlexander = {
 name: 'Kwon Alexander',
-pos: 'ILB',
+pos: 'LB',
 age: '29.4',
 type: 'UFA',
 cYears: 0,
@@ -3431,7 +3431,7 @@ img: ''
 };
 var JrAnthonyWalkerJr = {
 name: 'Jr. Anthony Walker Jr.',
-pos: 'ILB',
+pos: 'LB',
 age: '28.4',
 type: 'UFA',
 cYears: 0,
@@ -3861,7 +3861,7 @@ img: ''
 };
  var JarradDavis = {
 name: 'Jarrad Davis',
-pos: 'ILB',
+pos: 'LB',
 age: '29.2',
 type: 'UFA',
 cYears: 0,
@@ -4031,7 +4031,7 @@ img: ''
 };
  var BlakeMartinez = {
 name: 'Blake Martinez',
-pos: 'ILB',
+pos: 'LB',
 age: '30.0',
 type: 'UFA',
 cYears: 0,
@@ -4341,7 +4341,7 @@ img: ''
 };
  var JacobPhillips = {
 name: 'Jacob Phillips',
-pos: 'ILB',
+pos: 'LB',
 age: '24.8',
 type: 'UFA',
 cYears: 0,
@@ -4364,8 +4364,8 @@ name: 'Arthur Maulet',
 pos: 'CB',
 age: '30.5',
 type: 'UFA',
-cYears: 0,
-cTotal: 0,
+cYears: 1,
+cTotal: 3,
 interest: 40,
 img: ''
 };
@@ -4501,7 +4501,7 @@ img: ''
 };
  var DylanCole = {
 name: 'Dylan Cole',
-pos: 'ILB',
+pos: 'LB',
 age: '29.7',
 type: 'UFA',
 cYears: 0,
@@ -4874,8 +4874,8 @@ name: 'John Simpson',
 pos: 'IOL' ,
 age: '26.4',
 type: 'UFA',
-cYears: 0,
-cTotal: 0,
+cYears: 2,
+cTotal: 14,
 interest: 40,
 img: ''
 };
@@ -5051,7 +5051,7 @@ img: ''
 };
  var CalvinMunson = {
 name: 'Calvin Munson',
-pos: 'ILB',
+pos: 'LB',
 age: '29.0',
 type: 'UFA',
 cYears: 0,
@@ -5931,7 +5931,7 @@ img: ''
 };
  var NathanLandman = {
 name: 'Nathan Landman',
-pos: 'ILB',
+pos: 'LB',
 age: '25.2',
 type: 'ERFA',
 cYears: 0,
