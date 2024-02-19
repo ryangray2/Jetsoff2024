@@ -565,12 +565,25 @@ function finishTrade(type) {
       twoTradeArr.splice(0, 1);
     }
     twoNav = 0;
+    ////// test
+    var tempArr = [];
+    for (let i = 0; i < twoTradeArr.length; i++) {
+      if (checkTradeAssets(twoTradeArr[i])) {
+        tempArr.push(twoTradeArr[i]);
+      } else {
+        continue;
+      }
+    }
+    twoTradeArr = tempArr;
+    twoNav = 0;
+    //// end test
 
     document.getElementById("moreTradesCont").style.display = "block";
     document.getElementById("watsonTrade").style.display = "none";
         document.getElementById("wilsonTrade").style.display = "none";
           document.getElementById("twoTrade").style.display = "none";
             document.getElementById("tradeMenu").style.display = "none";
+
 
 
     // skipTrade();
