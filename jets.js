@@ -1094,10 +1094,13 @@ function signBroadFA(guy) {
 
   var sal = guy.salary;
   var cap =  getCapRoom();
+  // alert(cap);
+  console.log(offeredArr);
+  console.log();
   if (sal < cap) {
 
     var num = (Math.floor(Math.random() * 100));
-    if (guy.interest >= num) {
+    if (guy.interest >= 0) {
       popUp(guy, true);
       console.log(guy.name);
       console.log("Salary: " + guy.salary);
@@ -1419,7 +1422,7 @@ row.appendChild(reCol);
 var restCol = document.createElement("div");
 restCol.classList.add("col-3");
 ///<i class="fa fa-minus-circle" aria-hidden="true"></i>
-console.log(activeRoster[i].name + ": " + activeRoster[i].rest);
+// console.log(activeRoster[i].name + ": " + activeRoster[i].rest);
 if (activeRoster[i].rest > 0) {
   var restButton = document.createElement("button");
   restButton.classList.add("rosterCut", "btn");
@@ -2533,6 +2536,7 @@ function draftPlayer(guy) {
 }
 
 function generateBroadFA(kind) {
+  console.log(getCapRoom());
   currKind = kind;
   var tempArray = [];
   var amount = broadFA.length;
@@ -2692,7 +2696,9 @@ function generateBroadFA(kind) {
   while (root.firstChild) {
     root.removeChild(root.firstChild);
   }
+  console.log(offeredArr);
   for (let i = 0; i < tempArray.length; i++) {
+      console.log(tempArray[i].name + " " + getCapRoom());
     var row = document.createElement("div");
     row.classList.add("row");
 
@@ -2738,6 +2744,7 @@ function generateBroadFA(kind) {
     // var dumCol = document.createElement("div");
     // dumCol.classList.add("col-3");
     // row.appendChild(dumCol);
+
     if (!offeredArr.includes(tempArray[i])) {
       var signCol = document.createElement("div");
       signCol.classList.add("col-12", "col-md-4");
@@ -2755,6 +2762,7 @@ function generateBroadFA(kind) {
 
         signButton.innerHTML = "SIGN";
         signButton.addEventListener('click', function() {
+          console.log("i'm alive")
           signBroadFA(tempArray[i]);
         });
       }
