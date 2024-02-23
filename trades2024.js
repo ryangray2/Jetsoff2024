@@ -689,9 +689,9 @@ var JerryJeudy = {
 var jeudyOffer = {
   team: den,
   receiveText: ["Jerry Jeudy"],
-  giveText: ["2024 Round 3"],
+  giveText: ["2024 Round 4"],
   receiveIndex: [],
-  giveIndex: [returnPickIndex(3, false, nyj)],
+  giveIndex: [returnPickIndex(4, false, nyj)],
   receivePlayer: [JerryJeudy],
   givePlayer: []
 }
@@ -906,7 +906,7 @@ var jfmOffer3 = {
 }
 
 var DillonRadunz = {
-    name: "DillonRadunz",
+    name: "Dillon Radunz",
     pos: 'OT',
     age: '25',
     height: '6-1',
@@ -924,6 +924,58 @@ var jfmOffer4 = {
   giveIndex: [],
   receivePlayer: [DillonRadunz],
   givePlayer: [JohnFranklinMyers]
+}
+
+var SamHowell = {
+    name: "Sam Howell",
+    pos: 'QB',
+    age: '23',
+    height: '6-1',
+    weight: '212',
+    salary: 894600,
+    img: '',
+    capPenalty: 0
+};
+
+var samTrade = {
+  team: was,
+  receiveText: ["Sam Howell"],
+  giveText: ["2024 Round 6"],
+  receiveIndex: [],
+  giveIndex: [returnPickIndex(6, false, nyj)],
+  receivePlayer: [SamHowell],
+  givePlayer: []
+}
+
+var CourtlandSutton = {
+    name: "Courtland Sutton",
+    pos: 'WR',
+    age: '23',
+    height: '6-1',
+    weight: '212',
+    salary: 7650000,
+    img: '',
+    capPenalty: 0
+};
+
+var courtTrade = {
+  team: den,
+  receiveText: ["Courtland Sutton"],
+  giveText: ["2024 Round 3"],
+  receiveIndex: [],
+  giveIndex: [returnPickIndex(3, false, nyj)],
+  receivePlayer: [CourtlandSutton],
+  givePlayer: []
+}
+
+var samTrade = {
+  team: was,
+  receiveText: ["Sam Howell"],
+  giveText: ["2024 Round 6"],
+  receiveIndex: [],
+  giveIndex: [returnPickIndex(6, false, nyj)],
+  receivePlayer: [SamHowell],
+  givePlayer: []
 }
 
 var zachOffer = {
@@ -946,5 +998,46 @@ var zachOffer2 = {
   givePlayer: [ZachWilson]
 }
 
+var huffOffer6 = {
+  team: den,
+  receiveText: ["Courtland Sutton"],
+  giveText: ["Bryce Huff"],
+  receiveIndex: [],
+  giveIndex: [],
+  receivePlayer: [CourtlandSutton],
+  givePlayer: [BryceHuff]
+}
 
-twoTradeArr = [davanteOffer, bakhOffer, jeudyOffer, aiyukOffer, williamsOffer, bollesOffer, pickensOffer, huffOffer1, huffOffer2, huffOffer3, huffOffer4, huffOffer5, jfmOffer, jfmOffer2, jfmOffer3, jfmOffer4, zachOffer, zachOffer2];
+var pickOffer1 = {
+  team: ten,
+  receiveText: ["2024 Round 1", "2024 Round 6"],
+  giveText: ["2024 Round 1", "2024 Round 3"],
+  receiveIndex: [returnPickIndex(1, false, ten), returnPickIndex(6, false, ten)],
+  giveIndex: [returnPickIndex(1, false, nyj), returnPickIndex(3, false, nyj)],
+  receivePlayer: [],
+  givePlayer: []
+}
+
+var pickOffer2 = {
+  team: nyg,
+  receiveText: ["2024 Round 1"],
+  giveText: ["2024 Round 1", "2024 Round 3"],
+  receiveIndex: [returnPickIndex(1, false, nyg)],
+  giveIndex: [returnPickIndex(1, false, nyj), returnPickIndex(3, false, nyj)],
+  receivePlayer: [],
+  givePlayer: []
+}
+
+var pickOffer3 = {
+  team: atl,
+  receiveText: ["2024 Round 1", "2024 Round 6"],
+  giveText: ["2024 Round 1", "2024 Round 3", "2024 Round 4"],
+  receiveIndex: [returnPickIndex(1, false, atl), returnPickIndex(6, false, atl)],
+  giveIndex: [returnPickIndex(1, false, nyj), returnPickIndex(3, false, nyj), returnPickIndex(6, false, nyj)],
+  receivePlayer: [],
+  givePlayer: []
+}
+
+
+
+twoTradeArr = [davanteOffer, samTrade, courtTrade, jeudyOffer, aiyukOffer, williamsOffer, bollesOffer, pickensOffer, huffOffer1, huffOffer3, huffOffer4, huffOffer5, huffOffer6, jfmOffer, jfmOffer2, jfmOffer3, jfmOffer4, zachOffer, zachOffer2, pickOffer1, pickOffer2, pickOffer3];

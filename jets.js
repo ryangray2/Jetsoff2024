@@ -427,6 +427,12 @@ function generateTwoOffers(num) {
     p.style.color ="#ffa2a2";
   } else {
     p.innerHTML = "Cap Space Change: +" + addCommas(getCapRamis());
+    if (getCapRamis() === 1) {
+      p.innerHTML = "Cap Space Change: 0";
+    }
+    if (getCapRamis() === 0) {
+      p.innerHTML = "Cap Space Change: 0";
+    }
   }
 
 
@@ -1100,7 +1106,7 @@ function signBroadFA(guy) {
   if (sal < cap) {
 
     var num = (Math.floor(Math.random() * 100));
-    if (guy.interest >= 0) {
+    if (guy.interest >= num) {
       popUp(guy, true);
       console.log(guy.name);
       console.log("Salary: " + guy.salary);
